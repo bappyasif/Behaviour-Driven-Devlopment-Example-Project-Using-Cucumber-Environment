@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BDD Feature Test Suite,Chrome 78.0.3904.70,BDD Feature Test Suite Example Using Cucumber Environment,,2019-10-31 21:38:21,2019-10-31 21:39:27,1m - 6.688s,INCOMPLETE
+,,,,,,,
+Test Cases/Login Logout/Login User Test Case,Chrome 78.0.3904.70,Login User Test Case,,2019-10-31 21:38:21,2019-10-31 21:38:36,14.913s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-10-31 21:38:21,2019-10-31 21:38:26,4.325s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 78.0.3904.70,,,2019-10-31 21:38:26,2019-10-31 21:38:30,4.400s,PASSED
+"click(findTestObject(""Object Repository/Login Logout/Page_OrangeHRM/span_Username""))",Chrome 78.0.3904.70,,,2019-10-31 21:38:30,2019-10-31 21:38:30,0.236s,PASSED
+"setText(findTestObject(""Object Repository/Login Logout/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 78.0.3904.70,,,2019-10-31 21:38:30,2019-10-31 21:38:31,0.256s,PASSED
+"setText(findTestObject(""Object Repository/Login Logout/Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Chrome 78.0.3904.70,,,2019-10-31 21:38:31,2019-10-31 21:38:31,0.246s,PASSED
+"click(findTestObject(""Object Repository/Login Logout/Page_OrangeHRM/input_Password_Submit""))",Chrome 78.0.3904.70,,,2019-10-31 21:38:31,2019-10-31 21:38:33,1.751s,PASSED
+"click(findTestObject(""Object Repository/Login Logout/Page_OrangeHRM/h1_Dashboard""))",Chrome 78.0.3904.70,,,2019-10-31 21:38:33,2019-10-31 21:38:33,0.142s,PASSED
+"verifyElementText(findTestObject(""Login Logout/Page_OrangeHRM/h1_Dashboard""), ""Dashboard"")",Chrome 78.0.3904.70,,,2019-10-31 21:38:33,2019-10-31 21:38:35,1.844s,PASSED
+"click(findTestObject(""Object Repository/Login Logout/Page_OrangeHRM/b_Dashboard""))",Chrome 78.0.3904.70,,,2019-10-31 21:38:35,2019-10-31 21:38:35,0.596s,PASSED
+"verifyElementPresent(findTestObject(""Login Logout/Page_OrangeHRM/b_Dashboard""), 2)",Chrome 78.0.3904.70,,,2019-10-31 21:38:35,2019-10-31 21:38:35,0.088s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-10-31 21:38:35,2019-10-31 21:38:36,0.638s,PASSED
+,,,,,,,
+Test Cases/Login Logout/Run Feature Test Case,Chrome 78.0.3904.70,Run Feature Test Case,,2019-10-31 21:38:36,2019-10-31 21:39:27,51.383s,INCOMPLETE
+"runFeatureFile(""Include/features/BDD Feature/UserLogin.feature"")",Chrome 78.0.3904.70,,,2019-10-31 21:38:36,2019-10-31 21:39:27,51.208s,PASSED
+Start listener action : exportKatalonReports,Chrome 78.0.3904.70,,,2019-10-31 21:39:27,2019-10-31 21:39:27,0.000s,INCOMPLETE

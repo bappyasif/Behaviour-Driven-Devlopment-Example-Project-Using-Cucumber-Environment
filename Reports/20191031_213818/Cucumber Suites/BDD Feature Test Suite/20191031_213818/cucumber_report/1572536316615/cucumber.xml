@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.65829">
+<testcase classname="User Login Validation Fearture" name="Test User Login With Valid Credentials" time="11.825686">
+<system-out><![CDATA[Given I am Navigated To User Login Page.....................................passed
+When User Enters Their Crerdentials, Admin And admin123.....................passed
+And Click On Login Button...................................................passed
+Then User Lands On Dashboard................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login Validation Fearture" name="Test User Login With Valid Credentials 2" time="12.832604">
+<system-out><![CDATA[Given I am Navigated To User Login Page.....................................passed
+When User Enters Their Crerdentials, Admin And admin123.....................passed
+And Click On Login Button...................................................passed
+Then User Lands On Dashboard................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

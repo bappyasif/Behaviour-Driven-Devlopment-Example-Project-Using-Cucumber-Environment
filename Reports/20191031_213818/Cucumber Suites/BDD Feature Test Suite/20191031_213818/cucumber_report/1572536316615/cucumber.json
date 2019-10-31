@@ -1,0 +1,149 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Test User Login With Valid Credentials",
+        "description": "",
+        "id": "user-login-validation-fearture;test-user-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6175260933,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am Navigated To User Login Page",
+            "match": {
+              "location": "ValidUserLoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408738756,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Enters Their Crerdentials, Admin And admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 32
+                },
+                {
+                  "val": "admin123",
+                  "offset": 42
+                }
+              ],
+              "location": "ValidUserLoginSteps.loginCredentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2232602417,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click On Login Button",
+            "match": {
+              "location": "ValidUserLoginSteps.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2980146617,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Lands On Dashboard",
+            "match": {
+              "location": "ValidUserLoginSteps.verifyDashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Test User Login With Valid Credentials",
+        "description": "",
+        "id": "user-login-validation-fearture;test-user-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7014142499,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am Navigated To User Login Page",
+            "match": {
+              "location": "ValidUserLoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 378982201,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Enters Their Crerdentials, Admin And admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 32
+                },
+                {
+                  "val": "admin123",
+                  "offset": 42
+                }
+              ],
+              "location": "ValidUserLoginSteps.loginCredentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1920591171,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click On Login Button",
+            "match": {
+              "location": "ValidUserLoginSteps.loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3509666678,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Lands On Dashboard",
+            "match": {
+              "location": "ValidUserLoginSteps.verifyDashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Login Validation Fearture",
+    "description": "",
+    "id": "user-login-validation-fearture",
+    "keyword": "Feature",
+    "uri": "G:/Katalon Studio/Katalon Workspace/Behaviour Driven Devlopment Example Project Using Cucumber Environment/Include/features/BDD Feature/UserLogin.feature",
+    "tags": []
+  }
+]
